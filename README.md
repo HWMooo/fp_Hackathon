@@ -17,6 +17,7 @@ it will show the poster, release date and type - 'movie'/'series'.
 
 =================== THINGS TO ADD ====================
 1. it search's by search query but not really genre, need to find another api.
-2. add css/style to the page.
-3. error handling
-4. testing!!!!!!!
+2. api lacks info to display once clicked, need to find another api.
+3. add css/style to the page.
+4. error handling
+5. testing!!!!!!!
