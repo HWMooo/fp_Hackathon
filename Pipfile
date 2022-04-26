@@ -9,8 +9,13 @@ requests = "*"
 pytest = "*"
 pytest-cov = "*"
 werkzeug = "*"
+flask-cors = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.9"
+
+[scripts]
+start = "gunicorn app:app"
+dev = "bash -c \"export FLASK_ENV='development' && flask run\""
