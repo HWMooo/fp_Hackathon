@@ -8,6 +8,7 @@ django = "*"
 requests = "*"
 pytest = "*"
 pytest-cov = "*"
+werkzeug = "*"
 
 [dev-packages]
 
