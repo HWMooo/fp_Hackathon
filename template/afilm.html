@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
-    <form method="POST">
+    <form method="POST" action="/">
         <input type="text" placeholder="search..." name="variable">
         <button type="submit">submit</button>
     </form>
-    {% for e in mylist %}
-    <a href={{'http://localhost:5000/' + e['imdbID']}}>
     <h1>
-        {{e['Title']}}
+        {{single_film['Title']}}
     </h1>
-    </a>
-    {% endfor %}
+    <img src={{single_film['Poster']}}>
+    <h2>Released : {{single_film['Year']}}</h2>
+    <h3>Film or Series : {{single_film['Type']}}</h3>
 
 
+    
 
 </body>
-
 </html>

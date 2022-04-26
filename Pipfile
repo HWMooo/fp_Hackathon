@@ -10,6 +10,7 @@ pytest = "*"
 pytest-cov = "*"
 werkzeug = "*"
 flask-cors = "*"
+w3lib = "*"
 
 [dev-packages]
 
